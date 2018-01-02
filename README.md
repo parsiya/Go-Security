@@ -4,6 +4,7 @@
 
 - [SSH Harvester](#ssh-harvester)
 - [pcap Tutorial](#pcap-tutorial)
+- [CLI Package Tests](#cli-package-tests)
 
 <!-- /MarkdownTOC -->
 
@@ -15,6 +16,9 @@ Initial version of tool written in Go that harvests SSH certificates. For explan
 ## [pcap Tutorial](pcap-tutorial)
 Code for the blog post [Go and pcaps][go-pcap] which explains how to use Go to extract ICMP echo payloads from a pcap file.
 
+<a name="cli-package-tests"></a>
+## [CLI Package Tests](cli-package-tests)
+Sample programs for learning Cli and Cobra CLI packages.
 
 <!-- Links -->
 

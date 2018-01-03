@@ -24,10 +24,11 @@ var (
 func init() {
 	flags = []cli.Flag{
 		cli.StringFlag{
-			// Alternate flags are defined like this
-			Name:  "t, target, host",
+			// Alternate flags are separated by commas
+			Name: "t, target, host",
+			// Default value (optional)
 			Value: "127.0.0.1",
-			// Default value in -h set with ``:
+			// Default placeholder in -h usage string is set with ``:
 			// "-t HOST, --target HOST, --host HOST  hacking HOST (default: "127.0.0.1")"
 			Usage:       "hacking `HOST`",
 			Destination: &host,
@@ -44,7 +45,7 @@ func init() {
 func main() {
 	app := cli.NewApp()
 	// This function will be executed if no arguments are provided.
-	// Should be of this type: func (*cli.Context) error
+	// Should be of cli.ActionFunc type: func (*cli.Context) error
 	app.Action = noArgs
 	app.Flags = flags
 	app.Usage = "app to Hack the Planet!"

@@ -18,7 +18,7 @@ Code for the blog post [Go and pcaps][go-pcap] which explains how to use Go to e
 
 <a name="cli-package-tests"></a>
 ## [CLI Package Tests](cli-package-tests)
-Sample programs for learning Cli and Cobra CLI packages.
+Sample programs and notes while learning urfave-cli and Cobra packages for creating CLI applications.
 
 <!-- Links -->
 

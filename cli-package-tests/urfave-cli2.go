@@ -12,7 +12,7 @@ import (
 func main() {
 	app := cli.NewApp()
 	// This function will be executed if no arguments are provided.
-	// Should be of this type: func (*cli.Context) error
+	// Should be of cli.ActionFunc type: func (*cli.Context) error
 	app.Action = noArgs
 
 	app.Run(os.Args)

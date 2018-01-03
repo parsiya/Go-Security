@@ -57,9 +57,6 @@ func main() {
 func noSubs(c *cli.Context) error {
 	fmt.Println("inside app.Action")
 	return nil
-
-	// Seems like returning with a non-nil value has no effect - at least here
-	// return errors.New("test error message")
 }
 
 // Output without parameters

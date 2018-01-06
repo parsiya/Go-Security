@@ -1,5 +1,8 @@
 # spf13/cobra examples
 
+- URL: https://github.com/spf13/cobra
+- godoc: https://godoc.org/github.com/spf13/cobra
+
 ## cobra generator installation
 The `cobra` generator is not installed with `go get` (on Windows at least), to build and install:
 

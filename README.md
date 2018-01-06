@@ -5,6 +5,8 @@
 - [SSH Harvester](#ssh-harvester)
 - [pcap Tutorial](#pcap-tutorial)
 - [CLI Package Tests](#cli-package-tests)
+    - [urfave/cli](#urfavecli)
+    - [spf13/cobra](#spf13cobra)
 
 <!-- /MarkdownTOC -->
 
@@ -19,6 +21,12 @@ Code for the blog post [Go and pcaps][go-pcap] which explains how to use Go to e
 <a name="cli-package-tests"></a>
 ## [CLI Package Tests](cli-package-tests)
 Sample programs and notes while learning urfave-cli and Cobra packages for creating CLI applications.
+
+<a name="urfavecli"></a>
+### [urfave/cli](cli-package-tests/urfave-cli)
+
+<a name="spf13cobra"></a>
+### [spf13/cobra](cli-package-tests/spf13-cobra)
 
 <!-- Links -->
 

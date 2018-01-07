@@ -82,6 +82,9 @@ func main() {
 // flags can be processed in noArgs
 func noArgs(c *cli.Context) error {
 	// NumFlags() returns the number of flags set.
+	// Note: Each alternate flag is counted once. Meaning if
+	// a flag has 3 alternate flags (e.g. "t, target, host"),
+	// setting it will count as 3 here.
 	if c.NumFlags() < 2 {
 		// If not enough flags are set, print usage and exit
 		cli.ShowAppHelp(c)

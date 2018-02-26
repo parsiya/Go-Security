@@ -8,6 +8,7 @@
     - [urfave/cli](#urfavecli)
     - [spf13/cobra](#spf13cobra)
 - [Base64 Stream Decoder](#base64-stream-decoder)
+- [PNG Tests](#png-tests)
 
 <!-- /MarkdownTOC -->
 
@@ -33,8 +34,13 @@ Sample programs and notes while learning urfave-cli and Cobra packages for creat
 ## [Base64 Stream Decoder](base64-stream-decoder/b64-stream-decoder.go)
 Code for blog post [Decoding Large Base64 Files with Go][go-base64-decoder] showing how to use base64 stream decoder on large files.
 
+<a name="png-tests"></a>
+## [PNG Tests](png-tests)
+Reading and writing PNG files. Includes some test scripts and code for blog post [Extracting PNG Chunks with Go][go-png-chunk].
+
 <!-- Links -->
 
 [go-pcap]: https://parsiya.net/blog/2017-12-03-go-and-pcaps/
 [go-sshharvester]: https://parsiya.net/blog/2017-12-28-simple-ssh-harvester-in-go/
 [go-base64-decoder]: https://parsiya.net/blog/2018-01-19-decoding-large-base64-files-with-go/
+[go-png-chunk]: https://parsiya.net/blog/2018-02-25-extracting-png-chunks-with-go/

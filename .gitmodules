@@ -1,0 +1,3 @@
+[submodule "ssh-scanner"]
+	path = ssh-scanner
+	url = https://github.com/parsiya/ssh-scanner

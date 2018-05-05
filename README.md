@@ -6,7 +6,7 @@
 - [pcap Tutorial](#pcap-tutorial)
 - [Go-Fuzz Adventures](#go-fuzz-adventures)
     - [iprange](#iprange)
-    - [goexif-2](#goexif-2)
+    - [goexif2](#goexif2)
 - [CLI Package Tests](#cli-package-tests)
     - [urfave/cli](#urfavecli)
     - [spf13/cobra](#spf13cobra)
@@ -31,8 +31,8 @@ Learning how to use [Go-Fuzz][go-fuzz-github].
 ### [iprange](go-fuzz/iprange)
 Test code for fuzzing the [iprange][iprange-github] package. See blog post [Learning Go-Fuzz 1: iprange][iprange-blog].
 
-<a id="goexif-2"></a>
-### [goexif-2](go-fuzz/goexif2)
+<a id="goexif2"></a>
+### [goexif2](go-fuzz/goexif2)
 Code and accompanying material for blog post [Learning Go-Fuzz 2: goexif2][goexif2-blog] discussing fuzzing the [goexif2][goexif2-github] package.
 
 <a id="cli-package-tests"></a>

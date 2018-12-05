@@ -2,22 +2,29 @@
 
 <!-- MarkdownTOC -->
 
-- [SSH Harvester](#ssh-harvester)
-- [pcap Tutorial](#pcap-tutorial)
-- [Go-Fuzz Adventures](#go-fuzz-adventures)
-    - [iprange](#iprange)
-    - [goexif2](#goexif2)
-- [CLI Package Tests](#cli-package-tests)
-    - [urfave/cli](#urfavecli)
-    - [spf13/cobra](#spf13cobra)
-- [Base64 Stream Decoder](#base64-stream-decoder)
-- [PNG Tests](#png-tests)
+- [My Go Security Projects](#my-go-security-projects)
+    - [SSH Harvester](#ssh-harvester)
+    - [golnk](#golnk)
+    - [pcap Tutorial](#pcap-tutorial)
+    - [Go-Fuzz Adventures](#go-fuzz-adventures)
+        - [iprange](#iprange)
+        - [goexif2](#goexif2)
+    - [CLI Package Tests](#cli-package-tests)
+        - [urfave/cli](#urfavecli)
+        - [spf13/cobra](#spf13cobra)
+    - [Base64 Stream Decoder](#base64-stream-decoder)
+    - [PNG Tests](#png-tests)
 
 <!-- /MarkdownTOC -->
 
 <a id="ssh-harvester"></a>
 ## [SSH Harvester](ssh-harvester)
 Initial version of tool written in Go that harvests SSH certificates. For explanation of code please see the blog post [Simple SSH Harvester in Go][go-sshharvester].
+
+## [golnk](golnk)
+Go package for parsing Windows shell link binary (lnk or Windows shortcut) files.
+
+* https://github.com/parsiya/golnk
 
 <a id="pcap-tutorial"></a>
 ## [pcap Tutorial](pcap-tutorial)

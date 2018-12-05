@@ -1,3 +1,6 @@
 [submodule "ssh-scanner"]
 	path = ssh-scanner
 	url = https://github.com/parsiya/SSH-Scanner
+[submodule "golnk"]
+	path = golnk
+	url = git@github.com:parsiya/golnk.git
